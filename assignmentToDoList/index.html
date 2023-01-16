@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="toDoList">
+        <p>ToDo List</p>
+        <div id="inputfield">
+          <input type="text" id="input" placeholder="Type new task here.." />
+          <button id="addButton">Add</button>
+        </div>
+        <div id="tasklistField">
+          <ul id="tasklist"></ul>
+        </div>
+      </div>
+    </main>
+
+    <script defer src="api-clients.js"></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>
